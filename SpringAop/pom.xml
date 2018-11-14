@@ -2,18 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springlite</artifactId>
+        <groupId>com.aineeya</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.aineeya</groupId>
-    <artifactId>springlite</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>SpringIoc</module>
-        <module>SpringAop</module>
-        <module>SpringUtils</module>
-        <module>SpringWeb</module>
-    </modules>
+    <artifactId>SpringAop</artifactId>
 
 
 </project>
